@@ -1,0 +1,28 @@
+/* hocStyles.css */
+.hoc-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .hoc-title {
+    color: #333;
+  }
+  
+  .hoc-input {
+    margin-right: 10px;
+  }
+  
+  .hoc-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hoc-item {
+    margin-bottom: 10px;
+  }
+  
