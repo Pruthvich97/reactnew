@@ -16,6 +16,7 @@ class ImageSearchApi extends React.Component{
         e.preventDefault();
         console.log(e);
 
+
         // axios.get(`https://api.unsplash.com/search/photos?query=${this.state.search}&client_id=eTqklbp1fLIfOYMFANBajMjHZs3mpdJlOWCXl5TdT68`).then((res)=>console.log(res))
         // .catch((err)=>console.log(err))
         axios.get(`https://api.unsplash.com/search/photos/?query=${this.state.search}&client_id=eTqklbp1fLIfOYMFANBajMjHZs3mpdJlOWCXl5TdT68`).then((res)=>{
@@ -37,6 +38,7 @@ class ImageSearchApi extends React.Component{
                     this.state.results.map((item)=>(
                       <>
                         <img src={item.urls.small} alt="this is an img"></img>
+                        <h1>This is a demo for api calls</h1>
                         
                      </>
                     ))
