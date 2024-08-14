@@ -8,7 +8,8 @@
 // import electronics from "./WOHOC/electronics.js";
 // import ApiComponent from "./ApiComponent/ApiComponent.js"
 // import ApiComponentAxios from "./ApiComponent/ApiComponentAxios.js";
-import EmployeeManager from "./ContactManager/EmployeeManager.js";
+import ImageSearchApi from "./ApiComponent/ImageSearchApi.js";
+// import EmployeeManager from "./ContactManager/EmployeeManager.js";
 
 
 
@@ -22,7 +23,7 @@ function App() {
       {/*With Higher Order functions */}
       {/* <ClothingCategory data={clothing}></ClothingCategory> */}
       {/* <ElectronicCategory data={electronics}></ElectronicCategory> */}
-      <EmployeeManager></EmployeeManager>
+     <ImageSearchApi></ImageSearchApi>
      
     </>
   )
