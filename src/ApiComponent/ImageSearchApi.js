@@ -37,8 +37,8 @@ class ImageSearchApi extends React.Component{
                 {
                     this.state.results.map((item)=>(
                       <>
-                        <img src={item.urls.small} alt="this is an img"></img>
-                        <h1>This is a an ImageSearhApi</h1>
+                        <img src={item.urls.small} alt="this is an img" width="400px" ></img>
+                      
                         
                      </>
                     ))
