@@ -1,5 +1,6 @@
 import React from "react"
-class FormElements extends React.Component{
+import { Outlet } from "react-router-dom"
+class Login extends React.Component{
     constructor(props){
         super(props)
         this.state={
@@ -69,8 +70,10 @@ class FormElements extends React.Component{
            <button onClick={(e)=>this.handleSubmit(e)}>submit</button>
            <h2 style={{color:"green"}}>{this.state.successMsg}</h2>
             </form>
+            <Outlet></Outlet>
             </>
+        
         )
     }
 }    
-export default FormElements
+export default Login
