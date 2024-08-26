@@ -1,0 +1,93 @@
+
+
+.priority-5 {
+    background-color: rgb(255, 166, 0);
+  }
+  
+  .priority-4 {
+    background-color: rgb(238, 238, 41);
+  }
+  
+  .priority-3 {
+    background-color: rgba(29, 211, 29, 0.733);
+  }
+  
+  .priority-2 {
+    background-color: rgba(86, 140, 241, 0.551);
+  }
+  
+  .priority-1 {
+    background-color: rgba(241, 38, 38, 0.847);
+  }
+  
+  .ticket {
+   
+    padding: 10px;
+    margin:10px auto;
+    border-radius: 14px;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2{
+    padding:10px;
+    text-align: center;
+  }
+  p{
+    padding-right: 20px;
+  }
+  
+  .login{
+    margin:100px auto;
+    border:2px solid gray;
+    padding:10px;
+    background-color: blanchedalmond;
+    width: 500px;
+    text-align: center;
+  }
+  input{
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding:5px;
+    border-radius: 8px;
+    width:100%;
+  }
+  button{
+    margin:20px auto;
+    padding:10px 24px;
+    border:none;
+    border-radius: 4px;
+    color:white;
+    background-color: rgb(71, 71, 236);
+  }
+  button:hover{
+    color:white;
+    background-color: rgb(5, 5, 252);
+  }
+  
+  .userdash{
+    background-color: rgb(154, 218, 238);
+    text-align: center;
+  }
+
+  .userinterface input{
+    width: 500px;
+  }
+  
+  .textarea{
+    border-radius:14px;
+    width: 300px;
+  }
+  
+  .txtareaclsbtn{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .admindash{
+    background-color: rgb(154, 218, 238);
+    width:auto
+  }

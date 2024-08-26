@@ -21,11 +21,15 @@
 // import User from "./NestedRoutes/User.js"
 // import Login from "./NestedRoutes/Login.js"
 // import About from "./NestedRoutes/About.js"
-import LoginPageFunctional from "./RouterComponents/LoginPageFunctional.js"
-import DashBoardHooks from "./RouterComponents/DashBoardHooks.js"
+// import LoginPageFunctional from "./RouterComponents/LoginPageFunctional.js"
+// import DashBoardHooks from "./RouterComponents/DashBoardHooks.js"
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 // import LoginPageComponent from "./RouterHooks/LoginPageComponent.js"
-import PageNotFound from "./RouterComponents/PageNotFound.js"
+// import PageNotFound from "./RouterComponents/PageNotFound.js"
+// import SignUpComponent from "./RouterComponents/SignUpComponent.js"
+import UserDash from "./TicketRaisingApp/UserDash.js"
+import AdminDash from "./TicketRaisingApp/AdminDash.js"
+import Login from "./TicketRaisingApp/login.js"
 
 
 function App() {
@@ -59,9 +63,13 @@ function App() {
       <Route path='*' element={<PageNotFound></PageNotFound>}></Route>
       </Route> */} 
 
-      <Route path='/' element={<LoginPageFunctional></LoginPageFunctional>}></Route>
+      {/* <Route path='/' element={<LoginPageFunctional></LoginPageFunctional>}></Route>
       <Route path='/dashboard/:username' element={<DashBoardHooks></DashBoardHooks>}></Route>
-      <Route path='/error' element={<PageNotFound></PageNotFound>}></Route> 
+      <Route path='/signup' element={<SignUpComponent></SignUpComponent>}></Route>
+      <Route path='/error' element={<PageNotFound></PageNotFound>}></Route>  */}
+        <Route path="/" element={<Login></Login>}></Route>
+        <Route path="/userDash" element={<UserDash></UserDash>}></Route>
+        <Route path="/adminDash" element={<AdminDash></AdminDash>}></Route>
      </Routes>
      </BrowserRouter> 
      

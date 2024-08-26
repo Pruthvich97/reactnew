@@ -19,7 +19,7 @@ class LoginPageClass extends React.Component{
             const result=res.data[0]
             console.log(result)
             if(!response){
-                navigate('/signUp')
+                navigate('/signup')
             }
             if(result.email===this.state.email){
                 navigate(`/dashboard/${this.state.username}`)
